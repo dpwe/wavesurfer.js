@@ -449,9 +449,9 @@ export default class WebAudio extends util.Observer {
                 const end = ~~(start + sampleSize);
                 /**
                  * Initialize the max and min to the first sample of this
-                 * subrange, so that even if the samples are entirely
-                 * on one side of zero, we still return the true max and
-                 * min values in the subrange.
+                 * subrange, so that even if the samples are entirely on one
+                 * side of zero, we still return the true max and min values in
+                 * the subrange.
                  */
                 let min = chan[start];
                 let max = min;
